@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 for i in reversed(range(97, 123)):
-    print("{:c}".format(x if (x % 2 == 0) else (x - 32)), end="")
+    print("{:c}".format(i if (i % 2 == 0) else (i- 32)), end="")
